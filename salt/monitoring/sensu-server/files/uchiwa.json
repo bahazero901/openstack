@@ -1,0 +1,21 @@
+{
+  "sensu": [
+    {
+      "name": "dlp.srv.world",
+      "host": "127.0.0.1",
+      "port": 4567,
+      "timeout": 10
+    }
+  ],
+  "uchiwa": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "refresh": 10,
+    "user": "admin",
+    "pass": "adminpassword",
+    "ssl": {
+      "certfile": "/etc/sensu/uchiwa.crt",
+      "keyfile": "/etc/sensu/uchiwa.key"
+    }
+  }
+}

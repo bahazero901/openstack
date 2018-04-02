@@ -1,0 +1,2 @@
+kubernetes:
+  firewalld: enabled

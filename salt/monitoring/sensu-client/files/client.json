@@ -1,0 +1,16 @@
+{
+  "client": {
+    "name": "sensu-client-node-hostname",
+    "address": "sensu-client-node-ipaddr",
+    "subscriptions": [
+      "common",
+      "web"
+    ]
+  },
+  "keepalive": {
+    "thresholds": {
+      "critical": 60
+    },
+    "refresh": 300
+  }
+}
